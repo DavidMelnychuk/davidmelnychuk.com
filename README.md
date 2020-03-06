@@ -1,4 +1,4 @@
-# davidmelnychuk.com
+# [davidmelnychuk.com](davidmelnychuk.com)
 
 A personal website documenting everything I learn.
 
