@@ -14,7 +14,7 @@ const Footer = () => {
   `)
 
   return (
-    <footer className={footerStyles.footer}>
+    <footer>
       <p>Created by {data.site.siteMetadata.author}, © 2020</p>
     </footer>
   )

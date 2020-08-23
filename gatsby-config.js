@@ -3,7 +3,10 @@ module.exports = {
         title: 'David Melnychuk',
         description: 'Software developer and lifelong learner.',
         author: 'David Melnychuk',
-        siteUrl: 'https://davidmelnychuk.com'
+        siteUrl: 'https://davidmelnychuk.com',
+        social: {
+            twitter: '@david_melnychuk'
+        }
     },
     plugins: [
         'gatsby-plugin-manifest',
