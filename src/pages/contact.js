@@ -1,14 +1,14 @@
 import React from "react"
-
 import Layout from "../components/layout"
 
+// TODO: Use data for link refs so only have to change in one place. 
 const ContactPage = () => {
   return (
     <Layout>
       <h1>Contact</h1>
       <p>
         Have a question, comment, or just want to say hello? Reach out and let's
-        talk! I look forward to hearing from you. 
+        talk!
       </p>
       <div>
         <h3>Send an email</h3>
@@ -34,10 +34,7 @@ const ContactPage = () => {
         </li>
         <li>
           <strong>Twitter</strong>:{" "}
-          <a href="https://twitter.com/david_melnychuk">
-            {" "}
-            David Melnychuk
-          </a>
+          <a href="https://twitter.com/david_melnychuk"> David Melnychuk</a>
         </li>
       </ul>
     </Layout>
