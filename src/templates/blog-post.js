@@ -1,18 +1,19 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const Blog = ({data}) => {
+const Blog = ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
       <SEO title={post.frontmatter.title} description={post.excerpt} />
       <h1>{post.frontmatter.title}</h1>
       <p>{post.frontmatter.date}</p>
-      <div
-        dangerouslySetInnerHTML={{ __html: post.html }}
-      ></div>
+      <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
+      <p>
+        Have comments, suggestions, or just want to say Hello? <Link to="/contact">Contact me.</Link>
+      </p>
     </Layout>
   )
 }

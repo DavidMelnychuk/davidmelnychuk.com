@@ -9,10 +9,6 @@ const IndexPage = () => {
         I'm a computer science student from Vancouver writing about software
         development and everything I learn.
       </p>
-      <p>
-        Add to each blog post: Have comments or suggestions to improve my
-        content? Contact me.{" "}
-      </p>
     </Layout>
   )
 }
