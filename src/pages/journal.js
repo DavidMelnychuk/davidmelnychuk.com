@@ -1,34 +1,46 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import journalStyles from "./journal.module.scss"
 
-const WorkJournal = () => {
+const WorkJournal = ({ data }) => {
   return (
-    // TODO: Programatically update these. Probably use gatsby source filesystem. AllMarkDownRemark inside a certain folder.
     <Layout>
       <SEO title="Work Journal" description="Work Journal" />
       <h1>Work Journal</h1>
       <p>Documenting what I do and learn. Updated daily/weekly.</p>
+      <hr></hr>
 
-      <h4>August 24 2020</h4>
-      <ul><li>Continued working on this website. </li></ul>
-      <h4>August 23 2020</h4>
-      <ul>
-        <li>Mostly just worked on developing this website.</li>
-      </ul>
-
-      <h4>August 22 2020</h4>
-      <ul>
-        <li>Reviewed the <a href="https://www.gatsbyjs.com/tutorial/">Gatsby Tutorial</a></li>
-        <li>
-          Learned about The Open Graph Protocol: Essentially metadata tags that
-          control how URLs are displayed when shared on social media. E.g
-          controlling the title, image, and description.
-        </li>
-        <li>Learned how to use Lighthouse and React Helmet</li>
-      </ul>
+      <ol className={journalStyles.entries}>
+        {data.journals.edges.map(edge => {
+          return (
+            <li className={journalStyles.entry}>
+              <h4>{edge.node.frontmatter.title}</h4>
+              <p dangerouslySetInnerHTML={{ __html: edge.node.html }}></p>
+            </li>
+          )
+        })}
+      </ol>
     </Layout>
   )
 }
 
+export const query = graphql`
+  query {
+    journals: allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { category: { eq: "Journal" } } }
+    ) {
+      edges {
+        node {
+          html
+          frontmatter {
+            title
+            date(formatString: "MMMM DD, YYYY")
+          }
+        }
+      }
+    }
+  }
+`
 export default WorkJournal

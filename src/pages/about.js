@@ -10,9 +10,9 @@ const AboutPage = () => {
       <h1>About</h1>
       <p>
         Hi! I'm David Melnychuk, a fourth-year computing science student at SFU
-        and an avid learner. I love software engineering
-        and thinking about how to make things better. Outside of tech, I
-        read, write, and hike the great outdoors.
+        and an avid learner. I love software engineering and thinking about how
+        to make things better. Outside of tech, I read, write, and hike the
+        great outdoors.
       </p>
 
       <p>

@@ -74,9 +74,10 @@ const NowPage = () => {
           </p>
         </li>
         <li>
-          This website. We'll see how long I can keep it up for. A few days in and I've noticed that trying to document
-          EVERYTHING I learn is actually quite difficult. I'll try to focus on the main things and not just small tidbits or facts
-          that I pick up day to day.
+          This website. We'll see how long I can keep it up for. A few days in
+          and I've noticed that trying to document EVERYTHING I learn is
+          actually quite difficult. I'll try to focus on the main things and not
+          just small tidbits or facts that I pick up day to day.
         </li>
       </ul>
     </Layout>

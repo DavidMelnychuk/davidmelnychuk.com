@@ -11,7 +11,7 @@ const ContactPage = () => {
         Have a question, comment, or just want to say hello? Reach out and let's
         talk!
       </p>
-        {/* TODO: Make contacts metadata tags */}
+      {/* TODO: Make contacts metadata tags */}
       <div>
         <h3>Send an email</h3>
         <p>

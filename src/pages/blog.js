@@ -10,17 +10,17 @@ const BlogPage = ({ data }) => {
       <SEO title="Blog" description="Blog Index" />
       <h1>Blog</h1>
       <ol className={blogStyles.posts}>
-        {data.allMarkdownRemark.edges.map(edge => {
+        {data.articles.edges.map(edge => {
           return (
             <li className={blogStyles.post}>
               <Link to={`/blog/${edge.node.fields.slug}`}>
                 <h2>{edge.node.frontmatter.title}</h2>
                 <small>{edge.node.frontmatter.date}</small>
                 <p
-                dangerouslySetInnerHTML={{
-                  __html: edge.node.frontmatter.description || null, 
-                }}
-              />
+                  dangerouslySetInnerHTML={{
+                    __html: edge.node.frontmatter.description || null,
+                  }}
+                />
               </Link>
             </li>
           )
@@ -32,7 +32,10 @@ const BlogPage = ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    articles: allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { category: { eq: "Blog" } } }
+    ) {
       edges {
         node {
           frontmatter {

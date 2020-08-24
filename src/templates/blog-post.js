@@ -7,13 +7,20 @@ const Blog = ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} description={post.frontmatter.description ||post.excerpt} />
-      <h1>{post.frontmatter.title}</h1>
-      <p>{post.frontmatter.date}</p>
-      <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
-      <p>
-        Have comments, suggestions, or just want to say Hello? <Link to="/contact">Contact me.</Link>
-      </p>
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+      />
+      <article>
+        <h1>{post.frontmatter.title}</h1>
+        <p>{post.frontmatter.date}</p>
+        <section dangerouslySetInnerHTML={{ __html: post.html }}></section>
+        <hr></hr>
+        <footer style={{ marginBottom: "1em" }}>
+          Have comments, suggestions, or just want to say hello?{" "}
+          <Link to="/contact">Contact me.</Link>
+        </footer>
+      </article>
     </Layout>
   )
 }
@@ -24,9 +31,9 @@ export const query = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        description
       }
       html
-      excerpt
     }
   }
 `
