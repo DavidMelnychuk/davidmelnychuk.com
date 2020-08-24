@@ -57,6 +57,13 @@ const Header = () => {
             >
               Contact
             </Link>
+            <Link
+              className={headerStyles.navItem}
+              activeClassName={headerStyles.activeNavItem}
+              to="/now"
+            >
+              Now
+            </Link>
           </li>
         </ul>
       </nav>

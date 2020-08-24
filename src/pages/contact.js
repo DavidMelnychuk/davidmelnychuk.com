@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 
-// TODO: Use data for link refs so only have to change in one place. 
+// TODO: Use data for link refs so only have to change in one place.
 const ContactPage = () => {
   return (
     <Layout>
@@ -13,7 +13,8 @@ const ContactPage = () => {
       <div>
         <h3>Send an email</h3>
         <p>
-          <a href="mailto:hello@davidmelnychuk.com">hello@davidmelnychuk.com</a>
+          {/* TODO: Make email a metadata tag */}
+          <a href="mailto:david@davidmelnychuk.com">david@davidmelnychuk.com</a>
         </p>
       </div>
 
@@ -22,19 +23,19 @@ const ContactPage = () => {
       </div>
       <ul>
         <li>
-          <strong>Github</strong>:{" "}
-          <a href="https://github.com/DavidMelnychuk">David Melnychuk</a>
+          <strong>
+            <a href="https://www.linkedin.com/in/david-melnychuk/">LinkedIn</a>
+          </strong>
         </li>
         <li>
-          <strong>LinkedIn</strong>:{" "}
-          <a href="https://www.linkedin.com/in/david-melnychuk/">
-            {" "}
-            David Melnychuk
-          </a>
+          <strong>
+            <a href="https://github.com/DavidMelnychuk">Github</a>
+          </strong>
         </li>
         <li>
-          <strong>Twitter</strong>:{" "}
-          <a href="https://twitter.com/david_melnychuk"> David Melnychuk</a>
+          <strong>
+            <a href="https://twitter.com/david_melnychuk">Twitter</a>
+          </strong>
         </li>
       </ul>
     </Layout>
