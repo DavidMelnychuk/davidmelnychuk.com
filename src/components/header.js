@@ -64,6 +64,13 @@ const Header = () => {
             >
               Now
             </Link>
+            <Link
+              className={headerStyles.navItem}
+              activeClassName={headerStyles.activeNavItem}
+              to="/journal"
+            >
+              Journal
+            </Link>
           </li>
         </ul>
       </nav>
