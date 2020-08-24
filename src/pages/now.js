@@ -15,7 +15,7 @@ const NowPage = () => {
       <p>
         Trying to get better at competitive programming and algorithmic
         thinking. Right now, mostly doing practice problems from{" "}
-        <a href="http://www.crackingthecodinginterview.com/">CTCI</a> and
+        <a href="http://www.crackingthecodinginterview.com/">CTCI</a> and{" "}
         <a href="https://thedailybyte.dev/">The Daily Byte.</a> Trying to enter
         contests whenever I have the time.
       </p>
@@ -61,8 +61,16 @@ const NowPage = () => {
       </p>
       <h2>Experiments I'm Trying</h2>
       <ul>
-          <li><p>
-              </p></li>
+        <li>
+          <p>
+            {" "}
+            Trying to meditate everyday for 5 minutes. I've meditated daily in
+            the past but the habit didn't stick. Sometimes it's a struggle, but
+            I swear it makes me feel calmer and more clear-minded afterwards.
+            There's probably other benefits that I don't even notice or directly
+            attribute to meditation.
+          </p>
+        </li>
       </ul>
     </Layout>
   )
