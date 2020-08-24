@@ -1,7 +1,7 @@
 ---
-title: "Why I Made this Site"
-date: "2020-08-23"
-description: "My reasoning for documenting what I do online."
+title: "Test"
+date: "2020-08-24"
+description: "Lorem Ipsum"
 ---
 
 I always thought it would be cool to see Jeff Bezos package and ship the first Amazon products from his garage. To watch Bill Gates program the first versions of Microsoft. To get a raw, unfiltered look into their lives and see how they got to where they are today. I'm not saying I'm like them, just that I'm curious about how people actually spend their time and the processes involved in getting to where they are today. 

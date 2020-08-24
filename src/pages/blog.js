@@ -15,7 +15,12 @@ const BlogPage = ({ data }) => {
             <li className={blogStyles.post}>
               <Link to={`/blog/${edge.node.fields.slug}`}>
                 <h2>{edge.node.frontmatter.title}</h2>
-                <p>{edge.node.frontmatter.date}</p>
+                <small>{edge.node.frontmatter.date}</small>
+                <p
+                dangerouslySetInnerHTML={{
+                  __html: edge.node.frontmatter.description || null, 
+                }}
+              />
               </Link>
             </li>
           )
@@ -27,12 +32,13 @@ const BlogPage = ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           frontmatter {
             title
-            date
+            date(formatString: "MMMM DD, YYYY")
+            description
           }
           fields {
             slug
