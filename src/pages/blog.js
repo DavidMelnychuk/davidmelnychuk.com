@@ -2,10 +2,12 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import blogStyles from "./blog.module.scss"
+import SEO from "../components/seo"
 
 const BlogPage = ({ data }) => {
   return (
     <Layout>
+      <SEO title="Blog" description="Blog Index" />
       <h1>Blog</h1>
       <ol className={blogStyles.posts}>
         {data.allMarkdownRemark.edges.map(edge => {

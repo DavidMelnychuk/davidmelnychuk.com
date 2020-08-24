@@ -1,9 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const ContactPage = () => {
   return (
     <Layout>
+      <SEO title="Contact" description="Contact Page" />
       <h1>Contact</h1>
       <p>
         Have a question, comment, or just want to say hello? Reach out and let's

@@ -1,14 +1,16 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
+import SEO from "../components/seo"
 
 const AboutPage = () => {
   return (
     <Layout>
+      <SEO title="About" description="About Page" />
       <h1>About</h1>
       <p>
         Hi! I'm David Melnychuk, a fourth-year computing science student at SFU
-        and an avid learner. I love technology, software engineering, design,
+        and an avid learner. I love software engineering
         and thinking about how to make things better. Outside of tech, I
         read, write, and hike the great outdoors.
       </p>

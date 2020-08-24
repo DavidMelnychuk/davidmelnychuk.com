@@ -1,9 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const NowPage = () => {
   return (
     <Layout>
+      <SEO title="Now" description="Now Page" />
       <h1>Now</h1>
       {/* TODO: Make last updated automatic with code, source this data programatically, and create a Now Archive */}
       <p>What I'm currently up to. Last Update: August 23 2020</p>
@@ -70,6 +72,11 @@ const NowPage = () => {
             There's probably other benefits that I don't even notice or directly
             attribute to meditation.
           </p>
+        </li>
+        <li>
+          This website. We'll see how long I can keep it up for. A few days in and I've noticed that trying to document
+          EVERYTHING I learn is actually quite difficult. I'll try to focus on the main things and not just small tidbits or facts
+          that I pick up day to day.
         </li>
       </ul>
     </Layout>

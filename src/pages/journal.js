@@ -1,17 +1,20 @@
 import React from "react"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const WorkJournal = () => {
   return (
     // TODO: Programatically update these. Probably use gatsby source filesystem. AllMarkDownRemark inside a certain folder.
     <Layout>
+      <SEO title="Work Journal" description="Work Journal" />
       <h1>Work Journal</h1>
       <p>Documenting what I do and learn. Updated daily/weekly.</p>
 
+      <h4>August 24 2020</h4>
+      <ul><li>Continued working on this website. </li></ul>
       <h4>August 23 2020</h4>
       <ul>
         <li>Mostly just worked on developing this website.</li>
-        <li>Read Range.</li>
       </ul>
 
       <h4>August 22 2020</h4>

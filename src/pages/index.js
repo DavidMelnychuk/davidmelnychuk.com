@@ -1,9 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const IndexPage = () => {
   return (
     <Layout>
+      <SEO title="Home" description="Home Page" />
       <h1>Hey, I'm David &#x1F44B;</h1>
       <p>
         I'm a computer science student from Vancouver writing about software
