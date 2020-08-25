@@ -12,18 +12,19 @@ const IndexPage = ({ data }) => {
       <section>
         <h1>
           Hey, I'm David{" "}
-          <span role="image" aria-label="Wave Emoji">
+          <span role="img" aria-label="Wave Emoji">
             &#x1F44B;
           </span>
         </h1>
         <p>
           I'm a software developer and computer science student from Vancouver.
-          <br />I write about and document everything I learn.
+          <br /> This is my personal blog where I write and document everything
+          I learn.
         </p>
       </section>
       <hr></hr>
       <section>
-        <h2>Recent Articles</h2>
+        <h2>Latest Posts</h2>
         <ol className={indexStyles.posts}>
           {data.articles.edges.map(edge => {
             return (
