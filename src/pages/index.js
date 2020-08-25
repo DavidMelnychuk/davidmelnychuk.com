@@ -23,7 +23,7 @@ const IndexPage = ({ data }) => {
       </section>
       <hr></hr>
       <section>
-        <h2>Most Recent Articles</h2>
+        <h2>Recent Articles</h2>
         <ol className={indexStyles.posts}>
           {data.articles.edges.map(edge => {
             return (
