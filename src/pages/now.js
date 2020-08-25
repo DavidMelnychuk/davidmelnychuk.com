@@ -47,7 +47,7 @@ const NowPage = () => {
           </a>
         </li>
         <li>
-          <a href="Range: Why Generalists Triumph in a Specialized World">
+          <a href="https://www.goodreads.com/book/show/41795733-range">
             Range: Why Generalists Triumph in a Specialized World
           </a>
         </li>
