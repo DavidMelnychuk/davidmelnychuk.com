@@ -3114,9 +3114,9 @@ bmp-js@^0.1.0:
   integrity sha1-4Fpj95amwf8l9Hcex62twUjAcjM=
 
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
-  version "4.11.8"
-  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
-  integrity sha512-ItfYfPLkWHUjckQCk8xC+LwxgK8NYcXywGigJgSwOP8Y2iyWT4f2vsZnoOXTTbo+o5yXmIUJ4gn5538SO5S3gA==
+  version "4.11.9"
+  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.9.tgz#26d556829458f9d1e81fc48952493d0ba3507828"
+  integrity sha512-E6QoYqCKZfgatHTdHzs1RRKP7ip4vvm+EyRUeE2RF0NblwVvb0p6jSVeNTOFxPn26QXN2o6SMfNxKp6kU8zQaw==
 
 body-parser@1.19.0:
   version "1.19.0"
@@ -5230,9 +5230,9 @@ electron-to-chromium@^1.3.523:
   integrity sha512-+0R/i17u5E1cwF3g0W8Niq3UUKTUMyyT4kLkutZUHG8mDNvFsAckK3HIanzGVtixe3b6rknD8k7gHiR6nKFkgg==
 
 elliptic@^6.0.0:
-  version "6.4.1"
-  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.4.1.tgz#c2d0b7776911b86722c632c3c06c60f2f819939a"
-  integrity sha512-BsXLz5sqX8OHcsh7CqBMztyXARmGQ3LWPtGjJi6DiJHq5C/qvi9P3OqgswKSDftbu8+IoI/QDTAm2fFnQ9SZSQ==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.3.tgz#cb59eb2efdaf73a0bd78ccd7015a62ad6e0f93d6"
+  integrity sha512-IMqzv5wNQf+E6aHeIqATs0tOLeOTwj1QKbRcS3jBbYkl5oLAserA8yJTT7/VyHUYG91PRmPyeQDObKLPpeS4dw==
   dependencies:
     bn.js "^4.4.0"
     brorand "^1.0.1"
@@ -6655,7 +6655,7 @@ gatsby-plugin-google-analytics@^2.3.13:
     "@babel/runtime" "^7.10.3"
     minimatch "3.0.4"
 
-gatsby-plugin-manifest@^2.4.23:
+gatsby-plugin-manifest@^2.4.24:
   version "2.4.24"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.4.24.tgz#836fac2fc60f03cee9d155451a1353a12dc8c505"
   integrity sha512-ub2KvHPUcKHzsSdkRcpVzp43sTnnof7bG7w5cVHWUDfNIrxW+Pt3S6XYycqHGOB+Xd7cja1sW56qr+DR5pU49Q==
@@ -6665,7 +6665,7 @@ gatsby-plugin-manifest@^2.4.23:
     semver "^7.3.2"
     sharp "^0.25.1"
 
-gatsby-plugin-offline@^3.2.23:
+gatsby-plugin-offline@^3.2.24:
   version "3.2.24"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.2.24.tgz#2c1b1dde06979d8b909460f821d3252e8add688b"
   integrity sha512-d74VHgYRI1P4plL/B/mOU1PbP8gzzPqvDljqv0I5tAzAYR2l71HI1xhTVK/Gkh1nm54me1YUzTcI5j/ZOXlgCg==
@@ -6706,7 +6706,7 @@ gatsby-plugin-sass@^2.3.12:
     "@babel/runtime" "^7.10.3"
     sass-loader "^7.3.1"
 
-gatsby-plugin-sharp@^2.6.27:
+gatsby-plugin-sharp@^2.6.28:
   version "2.6.28"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.6.28.tgz#f5b9597d100c16c568f66e68ee68271691a57934"
   integrity sha512-7gAbrpOas7u0TlKJ1fnFHvRDaAodxoo0T9PuWc4guL8ZjfODPBvJ+hbuBr6ov4FJJyfHaCwxXLYV8yivwvmPYg==
@@ -6846,7 +6846,7 @@ gatsby-recipes@^0.2.17:
     yoga-layout-prebuilt "^1.9.6"
     yup "^0.27.0"
 
-gatsby-remark-images@^3.3.25:
+gatsby-remark-images@^3.3.26:
   version "3.3.26"
   resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-3.3.26.tgz#d95a1da59308de2a4619014f0580727d2b2bfa43"
   integrity sha512-PuoVdKUVzb3CTHceYzolTFu8j+WTX6cSSJFAcv/Nv9sdP2TuouswOku6PO43p3MGdK0nyW8X4RqAefQkVqGsGw==
@@ -6876,7 +6876,7 @@ gatsby-remark-relative-images@^0.2.3:
     slash "^2.0.0"
     unist-util-select "^1.5.0"
 
-gatsby-source-filesystem@^2.3.24:
+gatsby-source-filesystem@^2.3.25:
   version "2.3.25"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.3.25.tgz#7281ce07a5dae8d94fbafc81103112858a104049"
   integrity sha512-ZrLi8on+wMQOvd4YLmpb/bcw6K0BA6IeZ949+I465iTf3FIivdh7+at06q52fv1hfsPDQ8PF1KrWp3qDftbORQ==
@@ -6918,7 +6918,7 @@ gatsby-telemetry@^1.3.28:
     node-fetch "2.6.0"
     uuid "3.4.0"
 
-gatsby-transformer-remark@^2.8.28:
+gatsby-transformer-remark@^2.8.29:
   version "2.8.29"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.8.29.tgz#53921ef54f59e05ab70c33b0d32702d30c8dbd74"
   integrity sha512-X3b+3v7AYN0fWs4540n+tYKHSImaXXuKSI9kNi2lnPu0FKh3Lqy78qckW6hTdDB01a48cYRDCvGXP8by71z95g==
@@ -6945,7 +6945,7 @@ gatsby-transformer-remark@^2.8.28:
     unist-util-select "^1.5.0"
     unist-util-visit "^1.4.1"
 
-gatsby@^2.24.47:
+gatsby@^2.24.49:
   version "2.24.49"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.24.49.tgz#ed82779639c911ddf2b5567cd186b10ac9e650a1"
   integrity sha512-QFPJz+C87piBf3UO7cufYiSzYR+7/LDY/EHsT37bx2MNQewGdIoD8ixxRnoOLaYJVqh1WQ+jHVWOcQCtHG1XmQ==
@@ -8263,20 +8263,20 @@ inflight@^1.0.4:
     once "^1.3.0"
     wrappy "1"
 
-inherits@2, inherits@2.0.3, inherits@^2.0.1, inherits@^2.0.3, inherits@~2.0.1, inherits@~2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
-  integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
+inherits@2, inherits@2.0.4, inherits@^2.0.0, inherits@^2.0.1, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.0, inherits@~2.0.1, inherits@~2.0.3:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
+  integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
 inherits@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.1.tgz#b17d08d326b4423e568eff719f91b0b1cbdf69f1"
   integrity sha1-sX0I0ya0Qj5Wjv9xn5GwscvfafE=
 
-inherits@2.0.4, inherits@^2.0.0, inherits@^2.0.4, inherits@~2.0.0:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
-  integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
+inherits@2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
+  integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
 ini@^1.3.4, ini@^1.3.5, ini@~1.3.0:
   version "1.3.5"
