@@ -8,7 +8,7 @@ const NowPage = () => {
       <SEO title="Now" description="Now Page" />
       <h1>Now</h1>
       {/* TODO: Make last updated automatic with code, source this data programatically, and create a Now Archive */}
-      <p>What I'm currently up to. Last Update: August 23 2020</p>
+      <p>What I'm currently up to. Last Update: August 23 2020.</p>
       <h2>Primary Focus</h2>
       <p>
         Reviewing full stack MERN fundamentals by working through{" "}

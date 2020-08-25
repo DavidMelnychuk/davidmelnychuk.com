@@ -10,10 +10,15 @@ const IndexPage = ({ data }) => {
     <Layout>
       <SEO title="Home" description="Home Page" />
       <section>
-        <h1>Hey, I'm David &#x1F44B;</h1>
+        <h1>
+          Hey, I'm David{" "}
+          <span role="image" aria-label="Wave Emoji">
+            &#x1F44B;
+          </span>
+        </h1>
         <p>
-          I'm a computer science student from Vancouver writing about software
-          development and everything I learn.
+          I'm a software developer and computer science student from Vancouver.
+          <br />I write about and document everything I learn.
         </p>
       </section>
       <hr></hr>
