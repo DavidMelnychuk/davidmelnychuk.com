@@ -18,8 +18,8 @@ const IndexPage = ({ data }) => {
         </h1>
         <p>
           I'm a software developer and computer science student from Vancouver.
-          <br /> This is my personal blog where I write and document everything
-          I learn.
+          <br /> This is my personal blog where I write and{" "}
+          <Link to="/journal">document everything I learn.</Link>
         </p>
       </section>
       <hr></hr>
