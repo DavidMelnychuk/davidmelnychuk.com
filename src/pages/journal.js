@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import journalStyles from "./journal.module.scss"
+import { graphql } from "gatsby"
 
 const WorkJournal = ({ data }) => {
   return (

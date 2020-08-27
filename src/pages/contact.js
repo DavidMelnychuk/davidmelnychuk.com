@@ -7,10 +7,7 @@ const ContactPage = () => {
     <Layout>
       <SEO title="Contact" description="Contact Page" />
       <h1>Contact</h1>
-      <p>
-        Have a question, comment, or just want to say hello? Reach out and let's
-        talk!
-      </p>
+      <p>Have a question, comment, or just want to say hello?</p>
       <div>
         <h3>Send an email</h3>
         <p>
