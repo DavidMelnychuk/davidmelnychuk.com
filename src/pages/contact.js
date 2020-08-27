@@ -17,6 +17,22 @@ const ContactPage = () => {
           <a href="mailto:david@davidmelnychuk.com">david@davidmelnychuk.com</a>
         </p>
       </div>
+
+      <div>
+        <h3> Find me online</h3>
+      </div>
+      <ul>
+        <li>
+          <strong>
+            <a href="https://github.com/DavidMelnychuk">Github</a>
+          </strong>
+        </li>
+        <li>
+          <strong>
+            <a href="https://twitter.com/david_melnychuk">Twitter</a>
+          </strong>
+        </li>
+      </ul>
     </Layout>
   )
 }
