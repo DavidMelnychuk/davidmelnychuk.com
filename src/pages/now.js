@@ -12,7 +12,7 @@ const NowPage = ({ data }) => {
       <p>
         What I'm currently up to. Last Update: {latestNowPost.frontmatter.date}.
       </p>
-      <div dangerouslySetInnerHTML={{ __html: latestNowPost.html }}></div>
+      <main dangerouslySetInnerHTML={{ __html: latestNowPost.html }}></main>
     </Layout>
   )
 }

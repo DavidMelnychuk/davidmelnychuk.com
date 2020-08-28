@@ -19,7 +19,7 @@ const IndexPage = ({ data }) => {
         <p>
           I'm a software developer and computer science student from Vancouver.
           <br /> This is my personal blog where I write and{" "}
-          <Link to="/journal">document everything I learn.</Link>
+          <Link to="/journal">document what I learn.</Link>
         </p>
       </section>
       <hr></hr>
