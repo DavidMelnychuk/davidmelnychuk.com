@@ -24,7 +24,7 @@ const AboutPage = () => {
       </p>
       <p>
         You can read about what I'm currently doing <Link to="/now">here</Link>{" "}
-        and view my work journal <Link to="/journal">here</Link>.
+        and view my learning journal <Link to="/journal">here</Link>.
       </p>
     </Layout>
   )

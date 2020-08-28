@@ -7,9 +7,12 @@ import { graphql } from "gatsby"
 const WorkJournal = ({ data }) => {
   return (
     <Layout>
-      <SEO title="Work Journal" description="Work Journal" />
-      <h1>Work Journal</h1>
-      <p>Documenting what I do and learn. Updated daily/weekly.</p>
+      <SEO title="Learning Journal" description="Learning Journal" />
+      <h1>Learning Journal</h1>
+      <p>
+        Documenting what I learn. Updated whenever I learn something worth
+        noting down.
+      </p>
       <hr></hr>
 
       <ol className={journalStyles.entries}>
