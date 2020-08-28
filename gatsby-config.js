@@ -40,7 +40,14 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "journals",
-        path: `${__dirname}/src/content/work-journals/`,
+        path: `${__dirname}/src/content/journals/`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "now-page",
+        path: `${__dirname}/src/content/now-page/`,
       },
     },
     "gatsby-plugin-sharp",
