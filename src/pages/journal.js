@@ -9,10 +9,7 @@ const WorkJournal = ({ data }) => {
     <Layout>
       <SEO title="Learning Journal" description="Learning Journal" />
       <h1>Learning Journal</h1>
-      <p>
-        Documenting what I learn. Updated whenever I learn something worth
-        noting down.
-      </p>
+      <p>Documenting what I learn. Updated weekly.</p>
       <hr></hr>
 
       <ol className={journalStyles.entries}>

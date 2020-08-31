@@ -15,7 +15,7 @@ const ContactPage = () => {
         </p>
       </div>
 
-      <div>
+      {/* <div>
         <h3> Find me online</h3>
       </div>
       <ul>
@@ -29,7 +29,7 @@ const ContactPage = () => {
             <a href="https://twitter.com/david_melnychuk">Twitter</a>
           </strong>
         </li>
-      </ul>
+      </ul> */}
     </Layout>
   )
 }
