@@ -9,10 +9,10 @@ const AboutPage = () => {
       <SEO title="About" description="About Page" />
       <h1>About</h1>
       <p>
-        Hi! I'm David Melnychuk, a fourth-year computing science student at SFU
-        and an avid learner. I love software engineering and thinking about how
-        to make things better. If I'm not programming, you can probably find me
-        reading, cooking, or hiking the great outdoors.
+        Hi! I'm David Melnychuk, a computer science student and an avid learner.
+        I love software engineering and thinking about how to make things
+        better. If I'm not programming, you can probably find me reading,
+        cooking, or hiking the great outdoors.
       </p>
 
       <p>
