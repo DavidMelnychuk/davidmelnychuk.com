@@ -16,8 +16,9 @@ const WorkJournal = ({ data }) => {
         {data.journals.edges.map(edge => {
           return (
             <li className={journalStyles.entry}>
-              <h4>{edge.node.frontmatter.title}</h4>
+              <h3>{edge.node.frontmatter.title}</h3>
               <p dangerouslySetInnerHTML={{ __html: edge.node.html }}></p>
+              <hr></hr>
             </li>
           )
         })}
